@@ -1,9 +1,9 @@
 # Site settings
-title: pgsql.site на русском языке
+title: pgsql
 
-description: Собираем материалы по развертыванию приложений с помощью самых современных инструментова автоматизации
+description: Информация об отечественном дистрибутиве базы банных на основе PostgreSQL от DiaSoft
 
-keywords: PGSQL, DevOps, SRE, Clouds, Linux, Docker, Kubernetes, Git, FluxCD, ArgoCD
+keywords: PGSQL, PostgreSQL, DataBase, Diasoft, Q.Digital
 
 baseurl: '' # the subpath of your site, e.g. /blog/
 url: 'https://pgsql.site' # the base hostname & protocol for your site
