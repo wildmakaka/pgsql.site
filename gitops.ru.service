@@ -1,5 +1,5 @@
 [Unit]
-Description=gitops.ru
+Description=pgsql.site
 
 Requires=docker.service
 After=docker.service
@@ -8,14 +8,14 @@ After=docker.service
 
 Restart=always
 TimeoutStartSec=0
-ExecStartPre=-/usr/bin/docker kill gitops.ru
-ExecStartPre=-/usr/bin/docker rm gitops.ru
-ExecStartPre=-/usr/bin/docker pull marley/gitops.ru:latest
-ExecStart=/bin/sh -c '/usr/bin/docker run --name gitops.ru   \
+ExecStartPre=-/usr/bin/docker kill pgsql.site
+ExecStartPre=-/usr/bin/docker rm pgsql.site
+ExecStartPre=-/usr/bin/docker pull marley/pgsql.site:latest
+ExecStart=/bin/sh -c '/usr/bin/docker run --name pgsql.site   \
  -p 4006:80                        \
- marley/gitops.ru'
-ExecStop=-/usr/bin/docker kill gitops.ru
-ExecStop=-/usr/bin/docker rm gitops.ru
+ marley/pgsql.site'
+ExecStop=-/usr/bin/docker kill pgsql.site
+ExecStop=-/usr/bin/docker rm pgsql.site
 
 [Install]
 WantedBy=multi-user.target

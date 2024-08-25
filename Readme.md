@@ -1,4 +1,4 @@
-# Исходники сайта [gitops.ru](https://gitops.ru)
+# Исходники сайта [pgsql.site](https://pgsql.site)
 
 <br/>
 
@@ -8,8 +8,8 @@
 
 ```
 $ cd ~
-$ mkdir -p gitops.ru && cd gitops.ru
-$ git clone --depth=1 https://github.com/webmakaka/gitops.ru.git .
+$ mkdir -p pgsql.site && cd pgsql.site
+$ git clone --depth=1 https://github.com/webmakaka/pgsql.site.git .
 $ docker-compose up
 ```
 
@@ -23,10 +23,10 @@ $ docker-compose up
 
 <br/>
 
-### Запустить gitops.ru на своем хосте с использованием docker контейнера:
+### Запустить pgsql.site на своем хосте с использованием docker контейнера:
 
 ```
-$ docker run -i -t -p 80:80 --name gitops.ru marley/gitops.ru
+$ docker run -i -t -p 80:80 --name pgsql.site marley/pgsql.site
 ```
 
 <br/>
@@ -34,15 +34,15 @@ $ docker run -i -t -p 80:80 --name gitops.ru marley/gitops.ru
 ### Как сервис
 
 ```
-$ sudo vi /etc/systemd/system/gitops.ru.service
+$ sudo vi /etc/systemd/system/pgsql.site.service
 ```
 
-вставить содержимое файла gitops.ru.service
+вставить содержимое файла pgsql.site.service
 
 ```
-$ sudo systemctl enable gitops.ru.service
-$ sudo systemctl start  gitops.ru.service
-$ sudo systemctl status gitops.ru.service
+$ sudo systemctl enable pgsql.site.service
+$ sudo systemctl start  pgsql.site.service
+$ sudo systemctl status pgsql.site.service
 ```
 
 http://localhost:4006
