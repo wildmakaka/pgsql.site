@@ -1,6 +1,6 @@
 ---
 layout: page
-title: PGSQL
+title: Отечественный платный форк PostgreSQL от DiaSoft
 permalink: /
 ---
 
