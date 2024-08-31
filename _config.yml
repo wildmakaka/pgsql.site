@@ -3,7 +3,7 @@ title: pgsql
 
 description: Информация об отечественном дистрибутиве базы банных на основе PostgreSQL от DiaSoft
 
-keywords: PGSQL, PostgreSQL, DataBase, Diasoft, Q.Digital
+keywords: Отечественный дистрибутив PostgreSQL, Лицензии.ру, Diasoft, База для замены Oracle, MSSQL
 
 baseurl: '' # the subpath of your site, e.g. /blog/
 url: 'https://pgsql.site' # the base hostname & protocol for your site
