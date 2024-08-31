@@ -1,10 +1,10 @@
 ---
 layout: page
-title: Отечественный платный форк PostgreSQL от DiaSoft
+title: Отечественная платная версия базы данных PostgreSQL от DiaSoft
 permalink: /
 ---
 
-# Отечественный платный форк PostgreSQL от DiaSoft
+# Отечественная платная версия базы данных PostgreSQL от DiaSoft
 
 Приветствую!
 
