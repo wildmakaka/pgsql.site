@@ -31,7 +31,7 @@ permalink: /
 * [Руководство по установке_Q.Database, Управление БД](/files/03-installation-guide.pdf)
 * [Список сторонних библиотек_Q.Database, Управление БД](/files/04-external-library-list.pdf)
 * [Документация пользователя_Q.Database, Управление БД (Система управления базами данных PostgreDB)](/files/05-user-manual-guide.pdf)
-* [Документация администратора_Q.Database, Управление БД (Система управления базами данных PostgreDB)](/files/06-admin-manual-guide)
+* [Документация администратора_Q.Database, Управление БД (Система управления базами данных PostgreDB)](/files/06-admin-manual-guide.pdf)
 
 
 <br/>
