@@ -33,7 +33,7 @@ permalink: /
 * 
 * [Руководство по установке_Q.Database, Управление БД](/files/01-information-about-costs.docx)
 
-* [Список сторонних библиотек_Q.Database, Управление БД.pdf](/files/01-information-about-costs.docx)
+* [Список сторонних библиотек_Q.Database, Управление БД](/files/01-information-about-costs.docx)
 
 
 * [Документация пользователя_Q.Database, Управление БД (Система управления базами данных PostgreDB)](/files/01-information-about-costs.docx)
